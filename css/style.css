@@ -290,3 +290,63 @@ body {
   justify-content: center;
   margin-top: 32px;
 }
+
+.thirty-sec-top-background-img {
+  position: absolute;
+  background-image: url(/img/circle-imgs/thirty-sec-top-background-img.svg);
+  background-repeat: no-repeat;
+  width: 147px;
+  height: 100px;
+  z-index: 1;
+  margin-left: -165px;
+}
+
+.thirty-sec-bottom-background-img {
+  position: absolute;
+  background-image: url(/img/circle-imgs/thirty-se-bottom-background-img.svg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  margin-top: 20px;
+  margin-left: 1190px;
+}
+
+/* fourtyth section */
+
+.fifth-section {
+  height: 200px;
+  background-color: #F67E7E;
+}
+
+.fifth-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.fifth-main h1 {
+  font-size: 48px;
+  color: #012F34;
+}
+
+.fifth-main a {
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 28px;
+  font-weight: 600;
+  padding: 9px 32px;
+  border: 2px solid #012F34;
+  color: #012F34;
+  border-radius: 24px;
+  margin-right: 90px;
+}
+
+.fifth-main a:hover {
+  color: #fff;
+  background-color: #012F34;
+  transition: .3s ease;
+}
+
+/* sixth section */
