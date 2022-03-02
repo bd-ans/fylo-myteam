@@ -1,0 +1,270 @@
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/livvic-v11-latin-regular.woff2") format("woff2"), 
+       url("../fonts/livvic-v11-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/livvic-v11-latin-600.woff2") format("woff2"), 
+       url("../fonts/livvic-v11-latin-600.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/livvic-v11-latin-700.woff2") format("woff2"), 
+       url("../fonts/livvic-v11-latin-700.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* firs section */
+
+.header{
+  background-color: #014E56;
+  height: 700px;
+  overflow: hidden;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.logo-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-link {
+  display: flex;
+  margin-left: 80px;
+}
+
+
+.main-link-items {
+  list-style-type: none;
+}
+
+.main-link-items a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 40px;
+  color: #fff;
+  padding: 1px;
+}
+
+.main-link-items a:hover {
+  color: #F67E7E;
+  transition: .2s ease;
+}
+
+.main-link-items:first-child a{
+  margin-left: 0;
+}
+
+.contact-link {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 9px 33px;
+  border-radius: 24px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.contact-link:hover {
+  background-color: #fff;
+  color: #002529;
+  transition: .3s ease;
+}
+
+.top-background-img {
+  position: absolute;
+  background-image: url(/img/circle-imgs/header-background-img.svg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  margin-top: 550px;
+  margin-left: -280px;
+}
+
+.header-main-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 133px;
+}
+
+.header-main-section h1 {
+  color: #fff;
+  margin-top: -36px;
+}
+
+.header-main-section span {
+  color: #F67E7E;
+}
+.header-dot {
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  background-color:  #79C8C7;
+  margin-left: 75px;
+}
+
+.header-main-section p {
+  color: #fff;
+  padding-right: 350px;
+  margin-top: 125px;
+  margin-left: 75px;
+}
+
+.main-dot-text {
+  width: 500px;
+}
+
+.bottom-background-img {
+  position: absolute;
+  background-image: url(/img/circle-imgs/header-bottom-background-img.svg);
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 200px;
+  z-index: 1;
+  margin-top: 83px;
+  margin-left: 755px;
+}
+
+/* second section */
+
+.second-section {
+  height: 684px;
+  background-color: #012F34;
+}
+
+.second-main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 198px;
+}
+
+
+
+.second-word h1 {
+  color: #fff;
+  font-size: 48px;
+  padding-right: 300px;
+}
+
+.second-items-title {
+  font-size: 18px;
+  color: #F67E7E;
+}
+
+.second-items-paragrph {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.second-items-paragrph:first-child {
+  margin-top: 0;
+}
+
+.second-items-img {
+  position: absolute;
+  margin-left: -100px;
+}
+
+.second-items {
+  margin-left: -100px;
+}
+
+.second-items ~ .second-items {
+  margin-top: 32px;
+}
+
+.second-dot {
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  background-color:  #F67E7E;
+  margin-top: -50px;
+}
+
+.second-section-background-img {
+  position: absolute;
+  background-image: url(/img/circle-imgs/second-section-background-img.svg);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 244px;
+  z-index: 1;
+  margin-left: 1190px;
+  margin-top: -87px;
+}
+
+/* thirty section */
+
+.thirty-section {
+  height: 745px;
+  background-color:  #004047;
+}
+
+.thirty-main-word {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 140px;
+  margin: 0 90px;
+}
+
+.thirty-main-word span {
+  color: #79C8C7;
+}
+
+.thirty-main-directors {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 92px;
+}
+
+.thirty-section-poragrph {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+
+.thirty-section-director ~ .thirty-section-director {
+  margin-left: 30px;
+}
