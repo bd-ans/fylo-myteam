@@ -268,3 +268,25 @@ body {
 .thirty-section-director ~ .thirty-section-director {
   margin-left: 30px;
 }
+
+.thirty-sec-director-name {
+  font-size: 18px;
+  line-height: 28px;
+  color: #79C8C7;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.director__thirty-sec-p {
+  font-size: 13px;
+  line-height: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.thirty-sec-for-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
