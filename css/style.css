@@ -263,8 +263,9 @@ body {
   color: #fff;
   font-weight: 600;
   font-size: 15px;
-  text-align: center;;
+  text-align: center;
 }
+
 
 .thirty-section-poragrph::before {
   background-image: url(/img/“.svg);
@@ -304,6 +305,10 @@ body {
   margin-top: 32px;
 }
 
+.thirty-section-director:nth-child(3) p:nth-child(1) {
+  padding-right: 10px;
+}
+
 .thirty-sec-top-background-img {
   position: absolute;
   background-image: url(/img/circle-imgs/thirty-sec-top-background-img.svg);
@@ -322,7 +327,7 @@ body {
   height: 200px;
   z-index: 1;
   margin-top: 20px;
-  margin-left: 1190px;
+  margin-left: 1090px;
 }
 
 /* fourtyth section */
