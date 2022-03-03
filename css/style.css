@@ -263,7 +263,19 @@ body {
   color: #fff;
   font-weight: 600;
   font-size: 15px;
-  text-align: center;
+  text-align: center;;
+}
+
+.thirty-section-poragrph::before {
+  background-image: url(/img/“.svg);
+  background-repeat: no-repeat;
+  width: 67px;
+  height: 56px;
+  display: block;
+  content: "";
+  margin-left: 140px;
+  margin-bottom: -20px;
+  margin-top: -35px;
 }
 
 .thirty-section-director ~ .thirty-section-director {
