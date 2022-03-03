@@ -519,25 +519,6 @@ body {
   background-color: #004047;
 }
 
-#top-background-img {
-  width: 200px;
-  height: 200px;
-  top: 0;
-  position: absolute;
-  margin: 0;
-}
-
-
-.down-background-img {
-  margin-top: 68px;
-  float: right;
-}
-
-#down-background-img {
-  width: 147px;
-  height: 100px;
-}
-
 .top-tittle {
   padding-top: 140px
 }
@@ -571,7 +552,7 @@ body {
   margin-left: 30px;
 }
 
-#firs-directors-label {
+.firs-directors-label {
   display: flex;
   margin-bottom: 76px;
 }
@@ -620,7 +601,7 @@ body {
 }
 
 
-#block {
+.block {
   display: flex;
   justify-content: center;
 }
@@ -667,6 +648,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.social-media {
+  margin-top: 10px;
 }
 
 .social-media a~a{
