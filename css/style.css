@@ -652,3 +652,25 @@ a {
 .social-media a~a{
   margin-left: 14px;
 }
+
+.meet-directors-wrapper::before {
+  display: block;
+  content: "";
+  background-image: url('/img/circle-imgs/about-directors-top-background-img.png');
+  width: 200px;
+  height:200px;
+  position: absolute;
+  margin-left: -220px;
+}
+
+.meet-directors-wrapper::after {
+  display: block;
+  content: "";
+  background-image: url('/img/circle-imgs/about-directors-bottom-background-img.png');
+  width: 140px;
+  height:100px;
+  position: absolute;
+  margin-left: -166px;
+  margin-top: 68px;
+  margin-left: 1130px;
+}
