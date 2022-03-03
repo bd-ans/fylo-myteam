@@ -128,7 +128,6 @@ body {
 
 .header-main-section h1 {
   color: #fff;
-  /* margin-top: -36px; */
   line-height: 100px
 }
 
@@ -453,4 +452,223 @@ body {
   font-size: 15px;
   line-height: 25px;
   color: #fff;
+}
+
+/* start about page */
+
+.header-about {
+  background-color: #014E56;
+  height: 517px;
+  overflow: hidden;
+}
+
+.about-header-wrapper::after{
+  background-image: url(/img/circle-imgs/about-header-background-img.png);
+  background-repeat: no-repeat;
+  float: right;
+  width: 200px;
+  height: 200px;
+  display: block;
+  content: "";
+  margin-right: -265px;
+  margin-top: -40px;
+}
+
+.about-header-main-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 135px;
+}
+
+.about-header-main-section h1 {
+  color: #fff;
+  line-height: 100px;
+  font-size: 64px;
+  line-height: 100px;
+  margin-top: -18px;
+}
+
+.about-header-main-section p {
+  color: #fff;
+  padding-right: 64px;
+  margin-right: -80px;
+}
+
+.about-header-main-section p::before{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color:  #F67E7E;
+  position: absolute;
+  margin-top: -42px;
+}
+
+/* main directors section */
+
+.cont {
+  max-width: 1590px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+}
+
+.meet-directors {
+  width: 100%;
+  height: 1002px;
+  background-color: #004047;
+}
+
+#top-background-img {
+  width: 200px;
+  height: 200px;
+  top: 0;
+  position: absolute;
+  margin: 0;
+}
+
+
+.down-background-img {
+  margin-top: 68px;
+  float: right;
+}
+
+#down-background-img {
+  width: 147px;
+  height: 100px;
+}
+
+.top-tittle {
+  padding-top: 140px
+}
+
+.top-tittle h1 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+}
+
+.directors{
+  margin-top: 64px;
+}
+
+.directors-bg {
+  width: 350px;
+  height: 253px;
+  background-color:  #012F34;
+  text-align: center;
+  overflow: hidden;
+}
+
+.directors-main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.directors-bg ~ .directors-bg {
+  margin-left: 30px;
+}
+
+#firs-directors-label {
+  display: flex;
+  margin-bottom: 76px;
+}
+
+#second-directors-label {
+  display: flex;
+}
+
+.directors-image {
+  margin-top: 32px;
+}
+
+#nikita-marks , #cristian-duncan , #cruz-hamer, #drake-heaton{
+  width: 350px;
+  height: 253px;
+  background-color:  #012F34;
+}
+
+.plus-hover {
+  width: 100%;
+  height: 256px;
+  text-align: center;
+}
+
+.mini-about-directors {
+  margin-bottom: 52px;
+}
+
+.mini-about-directors .director-name-surname {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+
+.mini-about-directors .director-experience {
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  margin-top: 0;
+  font-family: "Livvic", sans-serif;
+  font-weight: normal;
+}
+
+
+#block {
+  display: flex;
+  justify-content: center;
+}
+
+.plus-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background-color: #F67E7E;
+  margin-top: 226px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+}
+
+.plus-icon:hover{
+  background-color: #79C8C7;
+}
+
+.plus-hoverth {
+  background-color: #002529;
+  height: 300px;
+  margin-top: -16px;
+  text-align: center;
+}
+
+.mt {
+  padding-top: 33px;
+  padding-bottom: 8px;
+}
+
+.director-p {
+  display: flex;
+  justify-content: center;
+}
+
+.p {
+  width: 286px;
+  padding: 0 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-media a~a{
+  margin-left: 14px;
 }
