@@ -945,7 +945,7 @@ a {
     line-height: 48px;
     text-align: center;
     width: 100%;
-    margin: 0 10px;
+    padding: 0 20px;
   }
 
   .header-wrapper::after {
