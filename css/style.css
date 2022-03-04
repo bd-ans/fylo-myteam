@@ -665,12 +665,16 @@ a {
 
 .meet-directors-wrapper::after {
   content: "";
- 
   background-image: url('/img/circle-imgs/about-directors-bottom-background-img.png');
-  width: 140px;
+  background-repeat: no-repeat;
+  width: 147px;
   height:100px;
-  margin-left: 1000px;
+  float: right;
+  margin-top: 68px;
+  margin-right: -160px;
 }
+
+
 
 /* thirty section */
 
