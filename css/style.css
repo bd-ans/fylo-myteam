@@ -814,13 +814,6 @@ a {
   background-color: #fff;
 }
 
-.btn-contact:hover {
-  color: #fff;
-  background-color: #004047;
-  border: 1px solid #fff;
-  transition: .3s ease;
-}
-
 .contact-sec h1 {
   color: #fff;
   font-size: 64px;
