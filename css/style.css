@@ -710,7 +710,14 @@ a {
   margin-left: 80px;
 }
 
-.fifth-main::before {
+.fifth-main2th {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.fifth-main2th::before {
   content: "";
   display: block;
   background-image: url(/img/circle-imgs/about-page-clents-background-img.svg);
@@ -719,4 +726,106 @@ a {
   margin-left: -300px;
   position: absolute;
   margin-top: -885px;
+}
+
+/* start contact page */
+
+.header-contact{
+  background-color: #014E56;
+  height: 789px;
+  overflow: hidden;
+}
+
+.header-contact-sec {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-contact-thirt-sec {
+  width: 500px;
+  margin-right: 100pxpx;
+}
+
+.header-contact-thirt-sec input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  width: 500px;
+  outline: none;
+  padding-left: 10px;
+  color: #ffffff;
+  padding-bottom: 16px;
+  padding-top: 24px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.header-contact-thirt-sec input:first-child {
+  padding-top: 0;
+}
+
+.header-contact-thirt-sec input:focus{
+  border-bottom: 1px solid #fff;
+}
+
+
+.header-contact-thirt-sec textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  resize: none;
+  width: 500px;
+  outline: none;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 25px;
+  height: 100px;
+  padding-top: 24px;
+  padding-left: 15px;
+  font-weight: 600;
+}
+
+::-webkit-input-placeholder {
+  font-size: 15px;
+  line-height: 25px;
+  color: #99b8bb;
+  font-weight: 600;
+}
+
+:focus::-webkit-input-placeholder {
+  opacity: 0.6;
+}
+
+.btn-contact {
+  padding: 9px 32px;
+  border-radius: 24px;
+  color: #004047;
+  border: 1px solid #fff;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.btn-contact:hover {
+  color: #fff;
+  background-color: #004047;
+  border: 1px solid #fff;
+  transition: .3s ease;
+}
+
+.contact-sec h1 {
+  color: #fff;
+  font-size: 64px;
+}
+
+.contact-sec h2 {
+  color: #F67E7E;
+  font-size: 32px;
+  font-weight: 48px;
+  margin-top: 16px;
 }
