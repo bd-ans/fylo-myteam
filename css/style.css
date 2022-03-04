@@ -38,9 +38,9 @@ body {
 }
 
 .container {
-  max-width: 1150px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1160px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -66,7 +66,7 @@ body {
 
 .main-link {
   display: flex;
-  margin-left: 80px;
+  margin-left: 48px;
 }
 
 
@@ -117,6 +117,11 @@ body {
   margin-left: -269px;
 }
 
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
 .footer-links {
   margin-left: 40px;
 }
@@ -135,6 +140,8 @@ body {
   color: #fff;
   line-height: 100px;
   width: 50%;
+  font-size: 100px;
+  line-height: 100px;
 }
 
 .header-main-section span {
@@ -175,6 +182,7 @@ body {
 .second-section {
   height: 684px;
   background-color: #012F34;
+  display: none;
 }
 
 .second-main {
@@ -242,6 +250,8 @@ body {
 .thirty-section {
   height: 745px;
   background-color:  #004047;
+  display: none;
+
 }
 
 .thirty-main-word {
@@ -322,16 +332,6 @@ body {
   margin-left: -156px;
 }
 
-/* .thirthy-main::after{
-  content: "";
-  position: absolute;
-  background-image: url(/img/circle-imgs/thirty-se-bottom-background-img.svg);
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
-  margin-top: 20px;
-  margin-left: 1100px;
-} */
 
 .cont3th {
   max-width: 1370px;
@@ -348,6 +348,7 @@ body {
 .fifth-section {
   height: 200px;
   background-color: #F67E7E;
+  display: none;
 }
 
 .fifth-main {
@@ -404,6 +405,8 @@ body {
 .footer {
   height: 196px;
   background-color: #002529;
+  display: none;
+
 }
 
 .footer-main {
@@ -904,3 +907,59 @@ a {
 
 /* start responsiving  */
 
+
+@media (min-width: 600px) and (max-width:1000px){ /*for tablets*/
+
+}
+
+@media (min-width: 355px) and (max-width:567px) { /*for mobile phones*/
+  .contact-link {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .main-link-items {
+    display: none;
+  }
+  
+  .header-inner {
+    padding-top: 40px;
+  }
+
+  .header-main-section::before{
+    display: none;
+  }
+
+  .header-main-section {
+    display: block;
+    margin-top: 80px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-main-section h1 {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .header-wrapper::after {
+    display: none;
+  }
+
+  .header-main-section p {
+    font-size: 15px;
+    line-height: 28px;
+    width: 100%;
+  }
+
+  .header-main-section p::before {
+    display: none;
+  }
+
+}
