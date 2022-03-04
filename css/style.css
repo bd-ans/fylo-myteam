@@ -50,7 +50,6 @@ body {
 .header{
   background-color: #014E56;
   height: 700px;
-  overflow: hidden;
 }
 
 .header-inner {
@@ -873,4 +872,23 @@ a {
   width: 72px;
   height:72px;
   margin-right: 22px;
+}
+
+.header-contact-sec::before {
+  content: "";
+  background-image: url(/img/circle-imgs/contact-header-top-background-img.png);
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-left: -265px;
+}
+
+.contact-header-wrapper::after {
+  content: "";
+  background-image: url(/img/circle-imgs/contact-header-bottom-background-img.svg);
+  width: 200px;
+  height: 225px;
+  position: absolute;
+  margin-left: 1165px;
+  margin-top: -105px;
 }
