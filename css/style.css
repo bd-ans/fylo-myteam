@@ -367,14 +367,14 @@ body {
   margin-right: auto;
 }
 
-.fifth-sec-background-img {
+.fifth-main::before {
+  content: "";
   position: absolute;
   background-image: url(/img/circle-imgs/fifth-section-background-img.svg);
-  background-repeat: no-repeat;
   width: 200px;
-  height: 244px;
+  height: 144px;
   z-index: 1;
-  margin-top: 145px;
+  margin-top: 44px;
   margin-left: -263px;
 }
 
