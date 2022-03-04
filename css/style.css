@@ -218,15 +218,14 @@ body {
   margin-top: -50px;
 }
 
-.second-section-background-img {
+.second-main::after {
+  content: "";
   position: absolute;
   background-image: url(/img/circle-imgs/second-section-background-img.svg);
-  background-repeat: no-repeat;
   width: 200px;
   height: 244px;
-  z-index: 1;
-  margin-left: 1190px;
-  margin-top: -86px;
+  margin-top: 242px;
+  margin-left: 1200px;
 }
 
 /* thirty section */
