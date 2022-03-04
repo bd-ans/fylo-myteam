@@ -396,16 +396,12 @@ body {
   display: flex;
 }
 
-.footer-firs-item img {
-  padding-right: 125px;
+.footer-firs-item a:first-child img{
+  padding-right: 1px;
   display: block;
   padding-bottom: 25px;
 }
 
-.footer-firs-item h1 {
-  margin-bottom: 100px;
-  padding-bottom: 100px;
-}
 
 .footer-firs-item a{
   text-decoration: none;
@@ -421,8 +417,12 @@ body {
   transition: .5 s ease;
 }
 
-.footer-firs-item a ~ a {
+.footer-firs-item a ~ .footer-firs-item a {
   margin-left: 35px;
+}
+
+.footer-second-item {
+  margin-left: 125px;
 }
 
 .footer-second-item p {
