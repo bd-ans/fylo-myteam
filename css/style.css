@@ -664,13 +664,55 @@ a {
 }
 
 .meet-directors-wrapper::after {
-  display: block;
   content: "";
+ 
   background-image: url('/img/circle-imgs/about-directors-bottom-background-img.png');
   width: 140px;
   height:100px;
+  margin-left: 1000px;
+}
+
+/* thirty section */
+
+.about-thirty-section {
+  height: 437px;
+  background-color:  #012F34;
+}
+
+.about-thirthy-main h1 {
+  padding-top: 140px;
+  text-align: center;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.about-clients {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.about-clients-main {
+  display: flex;
+}
+
+.about-clients-items {
+  list-style-type: none;
+}
+
+.about-clients-items ~ .about-clients-items {
+  margin-left: 80px;
+}
+
+.fifth-main::before {
+  content: "";
+  display: block;
+  background-image: url(/img/circle-imgs/about-page-clents-background-img.svg);
+  width: 200px;
+  height:200px;
+  margin-left: -300px;
   position: absolute;
-  margin-left: -166px;
-  margin-top: 68px;
-  margin-left: 1130px;
+  margin-top: -885px;
 }
