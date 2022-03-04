@@ -114,7 +114,15 @@ body {
   background-image: url(/img/circle-imgs/header-background-img.svg);
   width: 200px;
   height: 200px;
-  margin-left: -260px;
+  margin-left: -269px;
+}
+
+.footer-links {
+  margin-left: 40px;
+}
+
+.footer-links:nth-child(2) {
+  margin-left: 0;
 }
 
 .header-main-section {
@@ -440,6 +448,7 @@ body {
 .footer-social-media a ~ a {
   margin-left: 14px;
 }
+
 
 .social-media-items:hover path {
   fill: #F67E7E;
