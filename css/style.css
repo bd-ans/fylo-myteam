@@ -184,7 +184,6 @@ body {
 }
 
 
-
 .second-word h1 {
   color: #fff;
   font-size: 48px;
@@ -228,14 +227,14 @@ body {
   margin-top: -50px;
 }
 
-.second-main::after {
-  content: "";
-  position: absolute;
-  background-image: url(/img/circle-imgs/second-section-background-img.svg);
-  width: 200px;
-  height: 244px;
-  margin-top: 242px;
-  margin-left: 1200px;
+.cont2th {
+  max-width: 1650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cont2th img {
+  float: right;
+  margin-top: -87px;
 }
 
 /* thirty section */
@@ -270,7 +269,6 @@ body {
   text-align: center;
 }
 
-
 .thirty-section-poragrph::before {
   background-image: url(/img/“.svg);
   background-repeat: no-repeat;
@@ -278,9 +276,11 @@ body {
   height: 56px;
   display: block;
   content: "";
-  margin-left: 140px;
+  /* margin-left: 140px; */
   margin-bottom: -20px;
   margin-top: -35px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .thirty-section-director ~ .thirty-section-director {
@@ -322,7 +322,7 @@ body {
   margin-left: -156px;
 }
 
-.thirthy-main::after{
+/* .thirthy-main::after{
   content: "";
   position: absolute;
   background-image: url(/img/circle-imgs/thirty-se-bottom-background-img.svg);
@@ -331,6 +331,16 @@ body {
   height: 200px;
   margin-top: 20px;
   margin-left: 1100px;
+} */
+
+.cont3th {
+  max-width: 1370px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17px;
+}
+.cont3th img {
+  float: right;
 }
 
 /* fourtyth section */
