@@ -303,25 +303,24 @@ body {
   padding-right: 10px;
 }
 
-.thirty-sec-top-background-img {
+.thirthy-main::before {
+  content: "";
   position: absolute;
   background-image: url(/img/circle-imgs/thirty-sec-top-background-img.svg);
-  background-repeat: no-repeat;
   width: 147px;
   height: 100px;
-  z-index: 1;
-  margin-left: -165px;
+  margin-left: -156px;
 }
 
-.thirty-sec-bottom-background-img {
+.thirthy-main::after{
+  content: "";
   position: absolute;
   background-image: url(/img/circle-imgs/thirty-se-bottom-background-img.svg);
   background-repeat: no-repeat;
   width: 200px;
   height: 200px;
-  z-index: 1;
   margin-top: 20px;
-  margin-left: 1090px;
+  margin-left: 1100px;
 }
 
 /* fourtyth section */
