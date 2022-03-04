@@ -133,29 +133,31 @@ body {
 
 .header-main-section h1 {
   color: #fff;
-  line-height: 100px
+  line-height: 100px;
+  width: 50%;
 }
 
 .header-main-section span {
   color: #F67E7E;
 }
-.header-dot {
+
+.header-main-section p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  font-weight: 600;
+  width: 40%;
+  margin-top: 79px;
+}
+
+.header-main-section p::before {
+  content: "";
   position: absolute;
   width: 50px;
   height: 4px;
   background-color:  #79C8C7;
-  margin-left: 75px;
-}
-
-.header-main-section p {
-  color: #fff;
-  padding-right: 350px;
-  margin-top: 90px;
-  margin-left: 75px;
-}
-
-.main-dot-text {
-  width: 500px;
+  margin-top: -79px;
 }
 
 .header-wrapper::after {
@@ -498,8 +500,10 @@ body {
 
 .about-header-main-section p {
   color: #fff;
-  padding-right: 64px;
-  margin-right: -80px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  width: 65%;
 }
 
 .about-header-main-section p::before{
