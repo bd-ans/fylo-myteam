@@ -704,22 +704,15 @@ a {
   color: #fff;
 }
 
-.about-clients {
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
-}
-
 .about-clients-main {
   display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  align-items: center;
 }
 
 .about-clients-items {
   list-style-type: none;
-}
-
-.about-clients-items ~ .about-clients-items {
-  margin-left: 80px;
 }
 
 .fifth-main2th {
