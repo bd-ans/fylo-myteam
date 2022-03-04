@@ -120,7 +120,9 @@ body {
 .hamburger-menu {
   display: none;
   cursor: pointer;
+  outline: none;
 }
+
 
 .footer-links {
   margin-left: 40px;
@@ -158,14 +160,6 @@ body {
   margin-top: 79px;
 }
 
-.header-main-section p::before {
-  content: "";
-  position: absolute;
-  width: 50px;
-  height: 4px;
-  background-color:  #79C8C7;
-  margin-top: -79px;
-}
 
 .header-wrapper::after {
   content: "";
@@ -949,7 +943,14 @@ a {
   }
 
   .header-wrapper::after {
-    display: none;
+    content: "";
+    background-image: url(/img/circle-imgs/header-bottom-background-img.svg);
+    width: 358px;
+    height: 100px;
+    display: block;
+    margin-top: 156px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .header-main-section p {
@@ -960,6 +961,11 @@ a {
 
   .header-main-section p::before {
     display: none;
+  }
+  
+  .header-p-block {
+    height: 100px;
+    display: block;
   }
 
 }
