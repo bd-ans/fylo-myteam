@@ -441,6 +441,11 @@ body {
   margin-left: 14px;
 }
 
+.social-media-items:hover path {
+  fill: #F67E7E;
+  transition: .2s ease;
+}
+
 .footer-right-items p{
   margin-top: 73px;
   font-size: 15px;
@@ -887,4 +892,6 @@ a {
   margin-left: 1165px;
   margin-top: -105px;
 }
+
+/* start responsiving  */
 
