@@ -183,7 +183,7 @@ body {
   background-image: url(/img/circle-imgs/second-section-background-img.png);
   background-repeat: no-repeat;
   background-position-x: calc(50% + 735px);
-  background-position-y: calc(50% + 300px);
+  background-position-y: calc(50% + 220px);
 }
 
 .second-main {
@@ -240,14 +240,6 @@ body {
   margin-top: 32px;
 }
 
-
-.second-dot {
-  position: absolute;
-  width: 50px;
-  height: 4px;
-  background-color:  #F67E7E;
-  margin-top: -50px;
-}
 
 .cont2th {
   max-width: 1650px;
