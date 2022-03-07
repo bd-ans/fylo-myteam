@@ -930,9 +930,6 @@ h1 {
   color: #fff;
   font-size: 18px;
   line-height: 28px;
-}
-
-.contact-sec-item li{
   margin-top: 10px;
 }
 
@@ -955,7 +952,7 @@ h1 {
   background-repeat: no-repeat;
   width: 72px;
   height:72px;
-  margin-right: 22px;
+  padding-right: 22px;
 }
 
 #contact-main-item2th::before {
@@ -964,7 +961,7 @@ h1 {
   background-repeat: no-repeat;
   width: 72px;
   height:72px;
-  margin-right: 22px;
+  padding-right: 22px;
 }
 
 #contact-main-item3th::before {
@@ -973,7 +970,7 @@ h1 {
   background-repeat: no-repeat;
   width: 72px;
   height:72px;
-  margin-right: 22px;
+  padding-right: 22px;
 }
 
 
@@ -1706,6 +1703,17 @@ h1 {
 
   .about-clients-items:last-child {
     margin-bottom: 0;
+  }
+
+  .header-contact {
+    background-position-y: calc(0% - 200px),
+                           calc(100% + 100px);
+    background-position-x: calc(0% - 100px),
+                           calc(100% + 100px);
+  }
+
+  .contact-sec-item {
+    text-align: left;
   }
    
 }
