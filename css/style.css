@@ -576,7 +576,7 @@ body {
   margin-top: 135px;
 }
 
-.about-header-main-section h1 {
+.about-header-main-word {
   color: #fff;
   line-height: 100px;
   font-size: 64px;
@@ -584,7 +584,7 @@ body {
   margin-top: -18px;
 }
 
-.about-header-main-section p {
+.about-header-main-text {
   color: #fff;
   font-size: 18px;
   line-height: 28px;
