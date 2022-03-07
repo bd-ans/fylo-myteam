@@ -621,7 +621,7 @@ body {
   padding-top: 140px
 }
 
-.top-tittle h1 {
+.top-title-word {
   margin: 0;
   font-size: 48px;
   line-height: 48px;
@@ -639,6 +639,20 @@ body {
   background-color:  #012F34;
   text-align: center;
   overflow: hidden;
+  margin: 0 15px;
+}
+
+
+.directors-bg {
+  margin-bottom: 76px;
+}
+
+
+.meet-directors .container {
+  max-width: 1260px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .directors-main-content {
@@ -646,13 +660,11 @@ body {
   justify-content: center;
 }
 
-.directors-bg ~ .directors-bg {
-  margin-left: 30px;
-}
 
 .firs-directors-label {
   display: flex;
-  margin-bottom: 76px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #second-directors-label {
@@ -775,6 +787,10 @@ a {
   background-position-y:top;
 }
 
+h1 {
+  margin: 0
+}
+
 .about-thirthy-main h1 {
   padding-top: 140px;
   text-align: center;
@@ -806,23 +822,22 @@ a {
   padding-top: 70px;
 }
 
-.fifth-main2th::before {
-  content: "";
-  display: block;
-  background-image: url(/img/circle-imgs/about-page-clents-background-img.svg);
-  width: 200px;
-  height:200px;
-  margin-left: -300px;
-  position: absolute;
-  margin-top: -885px;
-}
 
 /* start contact page */
 
-.header-contact{
+.header-contact {
   background-color: #014E56;
-  height: 789px;
-  overflow: hidden;
+  height: auto;
+}
+
+.header-contact {
+  background-image: url(/img/circle-imgs/about-directors-top-background-img.png),
+                    url(/img/circle-imgs/contact-header-bottom-background-img.svg);
+  background-repeat: no-repeat;
+  background-position-y: calc(37%),
+                         calc(100%);
+  background-position-x: calc(50% - 730px),
+                         calc(50% + 720px);
 }
 
 .header-contact-sec {
@@ -919,6 +934,10 @@ a {
 
 .contact-sec-item li{
   margin-top: 10px;
+}
+
+.header-contact-thirt-sec {
+  padding-bottom: 140px;
 }
 
 .contact-sec-item li:first-child{
@@ -1204,7 +1223,102 @@ a {
   .about-header-main-text::before {
     display: none;
   }
-  
+
+  /* second section */
+
+  .top-tittle {
+    padding-top: 100px
+  }
+
+  .top-title-word {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .meet-directors {
+    background-image: url(/img/circle-imgs/about-directors-top-background-img.png),
+                      url(/img/circle-imgs/about-directors-bottom-background-img.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(0% - 100px),
+                           calc(100%);
+    background-position-y: top,
+                           bottom;
+  }
+
+  .directors-bg {
+    width: 281px;
+    height: 253px;
+    background-color:  #012F34;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+
+  .directors-bg:last-child {
+    margin-bottom: 0;
+  }
+
+  .meet-directors-wrapper {
+    padding-bottom: 128px;
+  }
+  .meet-directors .container {
+    max-width: 878px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* thirty section */
+
+  .about-thirthy-main h1 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .about-thirthy-main {
+    padding-bottom: 107px;
+  }
+
+  .about-clients-main {
+    margin-top: 50px;
+  }
+
+  .about-thirty-section {
+    background-image: url(/img/circle-imgs/about-clients-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(0%);
+    background-position-y:calc(0% - 100px);
+  }
+
+  /* contact page */
+
+  .header-contact-sec {
+    padding-top: 100px;
+    display: block;
+  }
+
+  .header-contact-sec {
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact-sec-item  {
+    margin-top: 46px;
+  }
+
+  .contact-sec-item {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
 }
 
@@ -1500,5 +1614,59 @@ a {
    .about-header-main-text::before {
      display: none;
    }
+
+   .meet-directors {
+    background-image: url(/img/circle-imgs/about-directors-top-background-img.png),
+                      url(/img/circle-imgs/about-directors-bottom-background-img.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(0% - 100px),
+                           calc(100%);
+    background-position-y: calc(0% - 100px),
+                           bottom;
+  }
+
+  .directors-bg {
+    width: 327px;
+    height: 253px;
+    background-color:  #012F34;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 52px;
+  }
+
+  .directors-bg:last-child {
+    margin-bottom: 0;
+  }
+
+  .meet-directors-wrapper {
+    padding-bottom: 116px;
+  }
+
+  /* thhirty section */
+
+  .about-clients-main {
+    display: block;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-thirty-section {
+    background-image: url(/img/circle-imgs/about-clients-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(0% - 100px);
+    background-position-y:calc(0% - 100px);
+  }
+
+  .about-clients-items {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .about-clients-items:last-child {
+    margin-bottom: 0;
+  }
    
 }
