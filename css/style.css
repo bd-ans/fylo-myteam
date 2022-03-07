@@ -613,7 +613,6 @@ body {
 /* main directors section */
 
 .meet-directors {
-  width: 100%;
   height: auto;
   background-color: #004047;
 }
@@ -958,24 +957,6 @@ a {
   margin-right: 22px;
 }
 
-.header-contact-sec::before {
-  content: "";
-  background-image: url(/img/circle-imgs/contact-header-top-background-img.png);
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  margin-left: -270px;
-}
-
-.contact-header-wrapper::after {
-  content: "";
-  background-image: url(/img/circle-imgs/contact-header-bottom-background-img.svg);
-  width: 200px;
-  height: 225px;
-  position: absolute;
-  margin-left: 1165px;
-  margin-top: -105px;
-}
 
 /* start responsiving  */
 
