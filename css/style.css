@@ -49,7 +49,7 @@ body {
 
 .header{
   background-color: #014E56;
-  height: 700px;
+  height: auto;
 }
 
 .header-inner {
@@ -116,7 +116,7 @@ body {
   background-position-x: calc(50% - 735px),
                          calc(50% + 380px);
   background-position-y: calc(50%),
-                         calc(50% + 300px);
+                         bottom;
 }
 
 .hamburger-menu {
@@ -152,6 +152,7 @@ body {
   font-weight: 600;
   width: 40%;
   margin-top: 79px;
+  margin-bottom: 250px;
 }
 
 .header-main-section p::before{
@@ -169,7 +170,6 @@ body {
   height: 684px;
   background-color: #012F34;
   overflow: hidden;
-
 }
 
 .second-section {
@@ -187,13 +187,13 @@ body {
 }
 
 
-.second-word h1 {
+.second-sec-main-word {
   color: #fff;
   font-size: 48px;
   padding-right: 300px;
 }
 
-.second-word h1::before {
+.second-sec-main-word::before {
   content: "";
   position: absolute;
   width: 50px;
@@ -206,6 +206,7 @@ body {
   font-size: 18px;
   line-height: 28px;
   color: #F67E7E;
+  line-height: 25px;
 }
 
 .second-items-paragrph {
@@ -220,13 +221,38 @@ body {
   margin-top: 0;
 }
 
-.second-items-img {
-  position: absolute;
+.second-items {
   margin-left: -100px;
 }
 
-.second-items {
-  margin-left: -100px;
+.second-items::before{
+  content: "";
+  background-image: url(/img/services/Group\ 11.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-left: -90px;
+}
+
+.second-items:nth-child(2):before{
+  content: "";
+  background-image: url(/img/services/Group\ 12.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-left: -90px;
+}
+
+.second-items:nth-child(3):before{
+  content: "";
+  background-image: url(/img/services/Group\ 13.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-left: -90px;
 }
 
 .second-items ~ .second-items {
@@ -247,7 +273,7 @@ body {
 /* thirty section */
 
 .thirty-section {
-  height: 745px;
+  height: auto;
   background-color:  #004047;
 }
 
@@ -257,8 +283,8 @@ body {
   background-repeat: no-repeat;
   background-position-x: calc(50% - 630px),
                          calc(50% + 580px);
-  background-position-y: calc(50% - 323px),
-                         calc(50% + 320px);
+  background-position-y: top,
+                         bottom;
 }
 
 .thirty-main-word {
@@ -297,6 +323,10 @@ body {
   margin-top: -35px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.thirty-section-director {
+  margin-bottom: 151px;
 }
 
 .thirty-section-director ~ .thirty-section-director {
@@ -897,7 +927,7 @@ a {
 /* start responsiving  */
 
 
-@media only screen and (max-width:768px){ /*for tablets*/
+@media only screen and (max-width:900px){ /*for tablets*/
   .header-main-text {
     font-size: 64px;
     line-height: 56px;
@@ -910,7 +940,7 @@ a {
    background-position-x: calc(50% - 735px),
                            calc(50%);
     background-position-y: calc(50%),
-                          calc(50% + 300px);
+                          bottom;
   }
 
   .header-main-section {
@@ -936,15 +966,75 @@ a {
     margin-right: auto;
     font-weight: 600;
     margin-top: 24px;
+    margin-bottom: 0;
+    padding-bottom: 256px;
   }
 
   .header-main-section p::before {
     display: none;
   }
 
+
+  /* second section */
+
+  .second-section {
+    height: 710px;
+  }
+
+  .second-section .container {
+    max-width: 573px;
+  }
+
+  .second-main {
+    display: block;
+    padding-top: 136px;
+  }
+
+  .second-sec-main-word {
+    font-size: 36px;
+    line-height: 36px;
+    padding-right: 20px;
+
+  }
+
+  .second-sec-main-word::before {
+    padding-top: -32px;
+  }
+
+  .second-section {
+    background-position-x: calc(100% + 100px);
+    background-position-y: calc(50% - 232px);
+  }
+
+  .second-main-item {
+    margin-top: 64px;
+  }
+
+  .second-items {
+    margin-left: 90px;
+  }
+
+  .second-items-paragrph {
+    width: 100%;
+    padding-right: -550px;
+  }
+
+  /* thirty section */
+
+  .thirty-section {
+    background-image: url(/img/circle-imgs/thirty-sec-top-background-img.png),
+                      url(/img/circle-imgs/thirty-se-bottom-background-img.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(0%),
+                           calc(100%);
+    background-position-y: top,
+                           bottom;
+  }
+
+
 }
 
-@media only screen and (max-width:600px) { /*for mobile phones*/
+@media only screen and (max-width:576px) { /*for mobile phones*/
   .header {
     height: 567px;
   }
@@ -1009,47 +1099,82 @@ a {
 
   /* second section */
 
+  .second-section {
+    background-position-x: calc(100% + 100px);
+    background-position-y: top;
+  }
+
+  .second-section {
+    height: auto;
+  }
+
   .second-main {
     display: block;
     padding-top: 100px;
   }
 
-  .second-word h1 {
+  .second-items::before{
+    content: "";
+    background-image: url(/img/services/Group\ 11.svg);
+    background-repeat: no-repeat;
+    background-position-x: calc(50%);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: -80px;
+  }
+  
+  .second-items:nth-child(2):before{
+    content: "";
+    background-image: url(/img/services/Group\ 12.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .second-items:nth-child(3):before{
+    content: "";
+    background-image: url(/img/services/Group\ 13.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+  }
+
+  .second-sec-main-word {
     font-size: 32px;
     line-height: 32px;
     padding-right: 0;
     width: 60%;
   }
 
-  .second-word h1::before {
+  .second-sec-main-word::before {
     margin-top: -32;
-  }
-
-  .cont2th {
-    max-width: 1650px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .cont2th img {
-    float: right;
-    margin-top: -999px;;
   }
 
   .second-items {
     display: block;
     margin-left: 0;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 144px;
   }
 
-  .second-items-img {
-    margin-left: -30px;
-    margin-top: -75px;
+  .second-items:last-child {
+    margin-bottom: 64px;
+  }
+
+  .second-items:nth-child(2) , .second-items:nth-child(3){
+    margin-top: 136px;
   }
 
   .second-items-paragrph {
     margin-top: 8px;
+    opacity: 0.8;
+  }
+
+  .second-items-paragrph:last-child {
+    padding: 0 10px;
   }
 
   .second-items-title {
@@ -1060,9 +1185,6 @@ a {
     margin-top: 0;
   }
 
-  .second-section {
-    height: 1073px;
-  }
 
   /* thirty section */
 
