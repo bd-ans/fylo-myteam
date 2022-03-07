@@ -387,12 +387,12 @@ body {
   padding-bottom: 76px;
 }
 
-.fifth-main h1 {
+.fifth-main-main-tex {
   font-size: 48px;
   color: #012F34;
 }
 
-.fifth-main a {
+.fifth-main-button{
   font-size: 16px;
   text-decoration: none;
   line-height: 28px;
@@ -1049,6 +1049,26 @@ a {
     margin-top: 16px;
   }
 
+  /* fifth section */
+
+  .fifth-section {
+    background-position-x: calc(0%);
+    background-position-y: calc(50% + 52px) ;
+  }
+
+  .container-for-fifth-section {
+    max-width: 573px;
+  }
+
+  .fifth-main-main-tex {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .fifth-main {
+    padding: 84px 0;
+  }
+
 }
 
 @media only screen and (max-width:576px) { /*for mobile phones*/
@@ -1234,6 +1254,11 @@ a {
   }
 
   /* fourtyth section */
+
+  .fifth-section {
+    background-position-x: calc(0%);
+    background-position-y: calc(50% + 100px) ;
+  }
 
   .fifth-section {
     height: 302px;
