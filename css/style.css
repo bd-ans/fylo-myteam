@@ -593,7 +593,7 @@ body {
   padding-bottom: 120px;
 }
 
-.about-header-main-section p::before{
+.about-header-main-text::before{
   content: "";
   display: block;
   width: 50px;
@@ -1160,6 +1160,52 @@ a {
    display: block;
  }
 
+  .about-header-main-word {
+    font-size: 64px;
+    line-height: 56px;
+  }
+
+  .header-main-section {
+    display: block;
+    margin-top: 120px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .header-about {
+    background-image: url(/img/circle-imgs/about-header-background-img.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% + 100px);
+    background-position-y:bottom;
+   }
+
+  .about-header-main-word {
+    font-size: 64px;
+    line-height: 56px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .about-header-main-text {
+    font-size: 15px;
+    line-height: 28px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 0;
+    padding-bottom: 112px;
+    text-align: center;
+  }
+
+  .about-header-main-text::before {
+    display: none;
+  }
+  
+
 }
 
 @media only screen and (max-width:576px) { /*for mobile phones*/
@@ -1409,6 +1455,50 @@ a {
   .footer-socials{
     margin-bottom: 16px;
   }
-  
-  
+
+  /* start about page */
+
+  .about-header-main-section {
+    display: block;
+    margin-top: 108px;
+  }
+ 
+   .about-header-main-word {
+     font-size: 40px;
+     line-height: 40px;
+   }
+ 
+   .header-about {
+     background-image: url(/img/circle-imgs/about-header-background-img.png);
+     background-repeat: no-repeat;
+     background-position-x: calc(100% + 100px);
+     background-position-y: calc(100% + 100px);
+    }
+ 
+   .about-header-main-word {
+     font-size: 64px;
+     line-height: 56px;
+     width: 75%;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+   }
+ 
+   .about-header-main-text {
+     font-size: 15px;
+     line-height: 28px;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     font-weight: 600;
+     margin-top: 16px;
+     margin-bottom: 0;
+     padding-bottom: 112px;
+     text-align: center;
+   }
+ 
+   .about-header-main-text::before {
+     display: none;
+   }
+   
 }
