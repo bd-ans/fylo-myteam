@@ -368,7 +368,7 @@ body {
 /* fourtyth section */
 
 .fifth-section {
-  height: 200px;
+  height: auto;
   background-color: #F67E7E;
 }
 
@@ -376,14 +376,15 @@ body {
   background-image: url(/img/circle-imgs/fifth-section-background-img.png);
   background-repeat: no-repeat;
   background-position-x: calc(50% - 600px);
-  background-position-y: calc(50% + 30px);
+  background-position-y: bottom;
 }
 
 .fifth-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 70px;
+  padding-top: 76px;
+  padding-bottom: 76px;
 }
 
 .fifth-main h1 {
@@ -1048,9 +1049,6 @@ a {
     margin-top: 16px;
   }
 
-
-  
-
 }
 
 @media only screen and (max-width:576px) { /*for mobile phones*/
@@ -1208,13 +1206,14 @@ a {
   /* thirty section */
 
   .thirty-section {
-    height: 1410px;
+    height: auto;
   }
 
   .thirty-main-word {
     font-size: 32px;
     line-height: 32px;
-    margin: 0 5px;
+    margin: 0;
+    padding-top: 140px;
   }
 
   .thirty-main-directors {
@@ -1230,15 +1229,8 @@ a {
     margin-left: 0;
   }
 
-  .thirthy-main::before {
-    margin-left: -30px;
-  }
-
-  .cont3th {
-    margin-top: 82px;
-  }
-  .cont3th img {
-    float: right;
+  .thirty-section-director:last-child {
+    padding-bottom: 164px;
   }
 
   /* fourtyth section */
