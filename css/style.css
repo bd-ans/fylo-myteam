@@ -123,6 +123,7 @@ body {
   display: none;
   cursor: pointer;
   outline: none;
+  margin-top: -10px;
 }
 
 .header-main-section {
@@ -483,18 +484,6 @@ body {
   background-color: #014E56;
   height: 517px;
   overflow: hidden;
-}
-
-.about-header-wrapper::after{
-  background-image: url(/img/circle-imgs/about-header-background-img.png);
-  background-repeat: no-repeat;
-  float: right;
-  width: 200px;
-  height: 200px;
-  display: block;
-  content: "";
-  margin-right: -265px;
-  margin-top: -45px;
 }
 
 .about-header-main-section {
@@ -925,8 +914,28 @@ a {
   }
 
   .header-main-section {
+    display: block;
     margin-top: 120px;
+    justify-content: center;
     text-align: center;
+  }
+
+  .header-main-text {
+    font-size: 64px;
+    line-height: 56px;
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-main-paragrph {
+    font-size: 15px;
+    line-height: 28px;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    margin-top: 24px;
   }
 
   .header-main-section p::before {
@@ -935,7 +944,7 @@ a {
 
 }
 
-@media (min-width: 355px) and (max-width:600px) { /*for mobile phones*/
+@media (min-width: 355px) and (max-width:601px) { /*for mobile phones*/
   .contact-link {
     display: none;
   }
@@ -956,45 +965,43 @@ a {
     display: none;
   }
 
+  .header {
+    background-image: url(/img/circle-imgs/header-background-img.png),
+                       url(/img/circle-imgs/header-bottom-background-img.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(50% - 735px),
+                            calc(50%);
+     background-position-y: calc(50%),
+                           calc(50% + 300px);
+   }
+
   .header-main-section {
     display: block;
     margin-top: 80px;
-    justify-content: center;
     text-align: center;
   }
 
-  .header-main-section h1 {
+  .header-main-text {
     font-size: 48px;
     line-height: 48px;
     text-align: center;
-    width: 100%;
-    padding: 0 20px;
-    height: 96px;
+    width: 94%;
+    margin: 0 auto;
   }
 
-  .header-wrapper::after {
-    content: "";
-    background-image: url(/img/circle-imgs/header-bottom-background-img.svg);
-    width: 358px;
-    height: 100px;
-    display: block;
-    margin-top: 61px;
-    margin-left: auto;
-    margin-right: auto;
-    background-position: center;
-  }
-
-  .header-main-section p {
+  .header-main-paragrph {
     font-size: 15px;
     line-height: 28px;
     width: 100%;
-    height: 195px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    font-weight: 600;
   }
 
   .header-main-section p::before {
     display: none;
-  }
-  
+  }  
 
   /* second section */
 
