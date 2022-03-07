@@ -897,7 +897,7 @@ a {
 /* start responsiving  */
 
 
-@media (min-width: 602px) and (max-width:1000px){ /*for tablets*/
+@media only screen and (max-width:768px){ /*for tablets*/
   .header-main-text {
     font-size: 64px;
     line-height: 56px;
@@ -944,7 +944,11 @@ a {
 
 }
 
-@media (min-width: 355px) and (max-width:601px) { /*for mobile phones*/
+@media only screen and (max-width:600px) { /*for mobile phones*/
+  .header {
+    height: 567px;
+  }
+
   .contact-link {
     display: none;
   }
@@ -972,7 +976,7 @@ a {
     background-position-x: calc(50% - 735px),
                             calc(50%);
      background-position-y: calc(50%),
-                           calc(50% + 300px);
+                           calc(50% + 233px);
    }
 
   .header-main-section {
