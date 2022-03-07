@@ -848,14 +848,14 @@ h1 {
 
 .header-contact-thirt-sec {
   width: 500px;
-  margin-right: 100pxpx;
+  margin-right: 100px;
 }
 
 .header-contact-thirt-sec input{
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #ffffff9d;
-  width: 500px;
+  width: 100%;
   outline: none;
   padding-left: 10px;
   color: #ffffff;
@@ -874,7 +874,7 @@ h1 {
   border: none;
   border-bottom: 1px solid #ffffff9d;
   resize: none;
-  width: 500px;
+  /* width: 10%; */
   outline: none;
   color: #ffffff;
   font-size: 15px;
@@ -1256,7 +1256,7 @@ h1 {
   }
 
   .directors-bg:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0; 
   }
 
   .meet-directors-wrapper {
@@ -1313,11 +1313,51 @@ h1 {
   }
 
   .contact-sec-item {
-    display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .header-contact-sec .contact-sec-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-contact-first-sec .header-contact-thirt-sec input{
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-contact {
+    background-position-y: calc(24%),
+                           calc(100%);
+    background-position-x: calc(0% - 100px),
+                           calc(100% + 100px);
+  }
+
+  .header-contact-thirt-sec input{
+    width: 100%;
+  }
+
+  .header-contact-thirt-sec {
+    width: 100%;
+    padding: 0 7%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    padding-bottom: 112px;
+  }
+
+  .header-contact-thirt-sec button {
+    float: left;
+  }
+
+  .clr {
+    clear: both;
+  }
+
+  .header-contact-thirt-sec textarea {
+    width: 100%;
+  }
 
 }
 
